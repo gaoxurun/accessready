@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <!-- Star glow -->
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8c9a0" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#d4a574" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#d4a574" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Light streak gradient -->
+    <linearGradient id="streakGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#e8c9a0" stop-opacity="0.95"/>
+      <stop offset="30%" stop-color="#d4a574" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#c4956a" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#b8865a" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Star center gradient -->
+    <radialGradient id="starCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8ee"/>
+      <stop offset="50%" stop-color="#f0d9b5"/>
+      <stop offset="100%" stop-color="#d4a574"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Soft halo glow behind the ring -->
+  <circle cx="60" cy="60" r="42" fill="url(#starGlow)" opacity="0.35"/>
+
+  <!-- Ring -->
+  <circle cx="60" cy="60" r="38" fill="none" stroke="#1a1a1a" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Horizontal light streak (passage of light) -->
+  <rect x="60" y="57" width="58" height="6" rx="3" fill="url(#streakGrad)"/>
+
+  <!-- Star / sparkle (four-pointed) -->
+  <g transform="translate(60, 60)">
+    <!-- Vertical ray -->
+    <ellipse cx="0" cy="0" rx="2.8" ry="12" fill="url(#starCenter)"/>
+    <!-- Horizontal ray -->
+    <ellipse cx="0" cy="0" rx="12" ry="2.8" fill="url(#starCenter)"/>
+    <!-- Diagonal rays for sparkle -->
+    <ellipse cx="0" cy="0" rx="2" ry="7" fill="url(#starCenter)" transform="rotate(45)"/>
+    <ellipse cx="0" cy="0" rx="2" ry="7" fill="url(#starCenter)" transform="rotate(-45)"/>
+    <!-- Bright center dot -->
+    <circle cx="0" cy="0" r="3.5" fill="#fff8ee"/>
+  </g>
+</svg>
