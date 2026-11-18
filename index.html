@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AccessReady Technologies — AccessReady Platform</title>
+  <meta name="description" content="AccessReady: An integrated campus accessibility platform. Equity begins when no‑one is sidelined by physical space.">
+  <meta property="og:title" content="AccessReady Technologies — AccessReady Platform">
+  <meta property="og:description" content="AccessReady: An integrated campus accessibility platform. Equity begins when no‑one is sidelined by physical space.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">
+          <img src="images/logo-mark.svg" alt="AccessReady logo">
+        </div>
+        <div>
+          <div class="nav-logo-text">AccessReady</div>
+          <div class="nav-logo-sub">Technologies Pty Ltd</div>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="background.html" class="nav-link">Background</a>
+        <a href="solution.html" class="nav-link">Solution</a>
+        <a href="innovation.html" class="nav-link">Innovation</a>
+        <a href="audience.html" class="nav-link">Audience</a>
+        <a href="team.html" class="nav-link">Team</a>
+      </div>
+      <a href="solution.html" class="nav-cta">
+        Explore Platform <i class="fas fa-arrow-right"></i>
+      </a>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero — Full Viewport Artistic -->
+  <section class="hero grain">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=2000&q=85&fit=crop" alt="University campus with students walking through grand architecture" loading="eager">
+    </div>
+
+    <!-- Particles Canvas -->
+    <canvas class="particles-canvas"></canvas>
+
+    <!-- Morph Shapes -->
+    <div class="morph-shape" style="width:500px;height:500px;background:var(--accent-sage);top:-10%;right:-150px;"></div>
+    <div class="morph-shape" style="width:400px;height:400px;background:var(--accent-clay);bottom:-15%;left:-100px;"></div>
+    <div class="morph-shape" style="width:300px;height:300px;background:var(--accent-gold);top:30%;left:20%;opacity:0.2;"></div>
+
+    <!-- Rotating Rings -->
+    <div class="rotate-ring" style="width:350px;height:350px;top:15%;left:8%;"></div>
+    <div class="rotate-ring dashed reverse" style="width:500px;height:500px;bottom:-10%;right:-10%;"></div>
+
+    <!-- Side decorative label -->
+    <div class="hero-side-label">
+      SCROLL TO EXPLORE
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-label">
+          <div class="hero-label-dot"></div>
+          <span>AccessReady Technologies Pty Ltd</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="line"><span class="text-reveal">Access<span class="accent">Ready</span></span></span>
+        </h1>
+
+        <p class="hero-slogan shimmer-text">
+          "Equity begins when no‑one is sidelined by physical space."
+        </p>
+
+        <div class="hero-actions">
+          <a href="solution.html" class="btn btn-primary glow-pulse">
+            Discover the Platform <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="background.html" class="btn btn-secondary">
+            <i class="fas fa-play-circle"></i> Our Story
+          </a>
+        </div>
+
+        <!-- Audio Player -->
+        <div class="audio-player" id="heroAudioPlayer">
+          <div class="audio-player-label">
+            <i class="fas fa-music"></i>
+            <span>Theme Music</span>
+          </div>
+          <div class="audio-player-main">
+            <button class="audio-play-btn" aria-label="Play theme music">
+              <i class="fas fa-play"></i>
+            </button>
+            <div class="audio-progress-container">
+              <div class="audio-progress">
+                <div class="audio-progress-fill"></div>
+                <div class="audio-progress-thumb"></div>
+              </div>
+              <div class="audio-time">
+                <span class="audio-current">0:00</span>
+                <span class="audio-divider">/</span>
+                <span class="audio-duration">0:00</span>
+              </div>
+            </div>
+            <div class="audio-volume-container">
+              <button class="audio-volume-btn" aria-label="Toggle mute">
+                <i class="fas fa-volume-up"></i>
+              </button>
+              <div class="audio-volume-slider">
+                <div class="audio-volume-fill"></div>
+                <div class="audio-volume-thumb"></div>
+              </div>
+            </div>
+          </div>
+          <audio class="audio-source" src="audio/theme.m4a" preload="metadata"></audio>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Project Brief — Artistic Two Column with Mega Number -->
+  <section class="section mega-section">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=1600&q=80&fit=crop" alt="University campus architecture" loading="lazy">
+      <div class="section-bg-overlay light"></div>
+    </div>
+    <div class="mega-number-bg" style="right: -5%; top: 10%;">01</div>
+    <div class="container">
+      <div class="two-col">
+        <div class="col-text fade-in">
+          <span class="eyebrow">Project Overview</span>
+          <h2>Bridging campus accessibility through <span class="italic-serif text-accent">digital intelligence.</span></h2>
+          <p class="lead">
+            AccessReady is a digital‑first platform designed for university campuses. It delivers personalised accessibility navigation, crowdsourced barrier reporting and closed‑loop university maintenance workflows — all in one unified system.
+          </p>
+          <p style="color: var(--color-slate-600); margin-bottom: 2.5rem;">
+            We bridge the gap between campus facility information, student needs and institutional improvement actions to support safe, independent campus movement for mobility‑limited users.
+          </p>
+          <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+            <a href="solution.html" class="btn btn-outline">
+              Explore Features <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-image fade-in">
+          <img src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=900&q=80" alt="University building architecture with grand stairs">
+          <div class="col-image-frame"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats — Dark Section -->
+  <section class="section stats-section grain">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1600&q=80&fit=crop" alt="University campus aerial view" loading="lazy">
+      <div class="section-bg-overlay dark-sage"></div>
+    </div>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="fade-in">
+          <div class="stat-number" data-target="30000" data-suffix="+">30,000+</div>
+          <div class="stat-label">Students with disabilities enrolled at Chinese universities</div>
+        </div>
+        <div class="fade-in">
+          <div class="stat-number" data-target="3" data-suffix="">3</div>
+          <div class="stat-label">Core capabilities — navigation, reporting, ticketing</div>
+        </div>
+        <div class="fade-in">
+          <div class="stat-number" data-target="2" data-suffix="">2</div>
+          <div class="stat-label">Platform sides — student interface & admin dashboard</div>
+        </div>
+        <div class="fade-in">
+          <div class="stat-number" data-target="100" data-suffix="%">100%</div>
+          <div class="stat-label">Closed‑loop workflow from report to resolution</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee Section -->
+  <section class="marquee-section grain">
+    <div class="marquee-track">
+      <div class="marquee-item">
+        <span>Accessibility</span><span class="marquee-dot"></span>
+        <strong>Inclusion</strong><span class="marquee-dot"></span>
+        <span>Equity</span><span class="marquee-dot"></span>
+        <strong>Empowerment</strong><span class="marquee-dot"></span>
+        <span>Independence</span><span class="marquee-dot"></span>
+        <strong>Navigation</strong><span class="marquee-dot"></span>
+      </div>
+      <div class="marquee-item">
+        <span>Accessibility</span><span class="marquee-dot"></span>
+        <strong>Inclusion</strong><span class="marquee-dot"></span>
+        <span>Equity</span><span class="marquee-dot"></span>
+        <strong>Empowerment</strong><span class="marquee-dot"></span>
+        <span>Independence</span><span class="marquee-dot"></span>
+        <strong>Navigation</strong><span class="marquee-dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Value Pillars -->
+  <section class="section" id="values">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80&fit=crop" alt="Modern university interior" loading="lazy">
+      <div class="section-bg-overlay light"></div>
+    </div>
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="eyebrow">Core Values</span>
+        <h2>Three pillars driving <span class="italic-serif">campus equity</span></h2>
+        <p class="lead">
+          We design technology that transforms physical spaces into truly inclusive environments.
+        </p>
+      </div>
+      <div class="value-pillars">
+        <div class="value-pillar fade-in">
+          <div class="value-pillar-icon">
+            <i class="fas fa-user-check"></i>
+          </div>
+          <h3>For Students</h3>
+          <p>Safe, predictable and independent daily campus travel for mobility‑impaired university students.</p>
+        </div>
+        <div class="value-pillar fade-in">
+          <div class="value-pillar-icon">
+            <i class="fas fa-university"></i>
+          </div>
+          <h3>For Universities</h3>
+          <p>Closed‑loop workflow management, evidence‑based facility renovation and regulatory compliance support.</p>
+        </div>
+        <div class="value-pillar fade-in">
+          <div class="value-pillar-icon">
+            <i class="fas fa-globe-asia"></i>
+          </div>
+          <h3>Long‑Term Impact</h3>
+          <p>Promoting the construction of a more equitable and inclusive overall university‑campus environment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Highlights -->
+  <section class="section mega-section" style="background: var(--color-slate-50);">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80&fit=crop" alt="Digital technology and data visualisation" loading="lazy">
+      <div class="section-bg-overlay light-soft"></div>
+    </div>
+    <div class="mega-number-bg warm" style="left: -3%; bottom: 5%;">02</div>
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="eyebrow">Platform Capabilities</span>
+        <h2>Everything you need for <span class="italic-serif">accessible campuses</span></h2>
+        <p class="lead">
+          Three integrated modules working together to create a complete accessibility ecosystem.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="feature-icon float-slow">
+            <i class="fas fa-route"></i>
+          </div>
+          <h3>Personalised Navigation</h3>
+          <p>Mobility‑adjusted route planning tailored to each user's profile — wheelchair, crutches, or temporary injury.</p>
+          <button class="feature-expand">
+            <i class="fas fa-chevron-down"></i>
+            <span>Learn more</span>
+          </button>
+          <div class="feature-detail">
+            <div class="feature-detail-inner">
+              <ul>
+                <li><i class="fas fa-check-circle"></i> Multiple mobility profile options</li>
+                <li><i class="fas fa-check-circle"></i> Real‑time facility status lookup</li>
+                <li><i class="fas fa-check-circle"></i> Ramp, elevator & restroom availability</li>
+                <li><i class="fas fa-check-circle"></i> Pre‑trip route assessment</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+
+        <div class="feature-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="feature-icon float-medium" style="animation-delay: 0.5s;">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <h3>Crowdsourced Reporting</h3>
+          <p>Students report on‑site barriers with geotags, photos and descriptions — saved as drafts when offline.</p>
+          <button class="feature-expand">
+            <i class="fas fa-chevron-down"></i>
+            <span>Learn more</span>
+          </button>
+          <div class="feature-detail">
+            <div class="feature-detail-inner">
+              <ul>
+                <li><i class="fas fa-check-circle"></i> Geotagged incident reporting</li>
+                <li><i class="fas fa-check-circle"></i> Photo attachment support</li>
+                <li><i class="fas fa-check-circle"></i> Offline draft saving</li>
+                <li><i class="fas fa-check-circle"></i> Public progress tracking</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+
+        <div class="feature-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="feature-icon float-fast" style="animation-delay: 1s;">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <h3>Maintenance Ticketing</h3>
+          <p>Full‑cycle university workflow — verify, assign, track and close maintenance tickets with full traceability.</p>
+          <button class="feature-expand">
+            <i class="fas fa-chevron-down"></i>
+            <span>Learn more</span>
+          </button>
+          <div class="feature-detail">
+            <div class="feature-detail-inner">
+              <ul>
+                <li><i class="fas fa-check-circle"></i> End‑to‑end ticket workflow</li>
+                <li><i class="fas fa-check-circle"></i> Multi‑level priority assignment</li>
+                <li><i class="fas fa-check-circle"></i> Proactive alert notifications</li>
+                <li><i class="fas fa-check-circle"></i> Audit‑ready data export</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 3.5rem;" class="fade-in">
+        <a href="solution.html" class="btn btn-primary">
+          See Full Solution <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Section -->
+  <section class="section quote-section grain">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80&fit=crop" alt="Moody library interior" loading="lazy">
+      <div class="section-bg-overlay dark-deep"></div>
+    </div>
+    <div class="container">
+      <div class="quote-content fade-in">
+        <p>
+          Physical hardware alone cannot guarantee continuous, safe and independent movement across campus — the gap between infrastructure and real experience is where AccessReady begins.
+        </p>
+        <cite>— Our Philosophy</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- Three Problems Teaser -->
+  <section class="section mega-section">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80&fit=crop" alt="University campus life and students" loading="lazy">
+      <div class="section-bg-overlay light"></div>
+    </div>
+    <div class="mega-number-bg" style="right: -5%; top: 15%;">03</div>
+    <div class="container">
+      <div class="two-col reverse">
+        <div class="col-image fade-in">
+          <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=900&q=80" alt="University student walking across campus pathway">
+          <div class="col-image-frame warm"></div>
+        </div>
+        <div class="col-text fade-in">
+          <span class="eyebrow eyebrow-warm">The Problem</span>
+          <h2>Why existing solutions <span class="italic-serif text-warm">fall short.</span></h2>
+          <p class="lead">
+            Physical hardware alone cannot guarantee continuous, safe and independent movement across campus.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 1.75rem; margin-top: 2.5rem;">
+            <div style="display: flex; gap: 1.25rem; align-items: flex-start;">
+              <div style="width: 48px; height: 48px; border-radius: 50%; background: var(--color-warm-100); color: var(--color-warm-600); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <div>
+                <h4 style="font-size: 1.15rem; margin-bottom: 0.5rem; font-family: var(--font-serif); font-weight: 500;">Static maps, dynamic hazards</h4>
+                <p style="color: var(--color-slate-500); font-size: var(--fs-small); line-height: 1.7;">Construction zones, blocked walkways and elevator breakdowns aren't captured on any static campus map.</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 1.25rem; align-items: flex-start;">
+              <div style="width: 48px; height: 48px; border-radius: 50%; background: var(--color-warm-100); color: var(--color-warm-600); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                <i class="fas fa-exclamation-circle"></i>
+              </div>
+              <div>
+                <h4 style="font-size: 1.15rem; margin-bottom: 0.5rem; font-family: var(--font-serif); font-weight: 500;">Broken feedback loops</h4>
+                <p style="color: var(--color-slate-500); font-size: var(--fs-small); line-height: 1.7;">Students report issues but never see what happens next — no verification, no timeline, no closure.</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 1.25rem; align-items: flex-start;">
+              <div style="width: 48px; height: 48px; border-radius: 50%; background: var(--color-warm-100); color: var(--color-warm-600); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                <i class="fas fa-unlink"></i>
+              </div>
+              <div>
+                <h4 style="font-size: 1.15rem; margin-bottom: 0.5rem; font-family: var(--font-serif); font-weight: 500;">Fragmented routes</h4>
+                <p style="color: var(--color-slate-500); font-size: var(--fs-small); line-height: 1.7;">Accessibility facilities suffer from "built but hard to use" — hardware exists on paper, not in daily reality.</p>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 3rem;">
+            <a href="background.html" class="btn-text">
+              Read the full analysis <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Innovation Preview -->
+  <section class="section workflow-section">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&q=80&fit=crop" alt="Abstract technology and digital innovation" loading="lazy">
+      <div class="section-bg-overlay light-accent"></div>
+    </div>
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="eyebrow">Innovation & Differentiation</span>
+        <h2>What sets <span class="italic-serif">AccessReady</span> apart</h2>
+        <p class="lead">
+          Beyond navigation — a complete campus accessibility ecosystem.
+        </p>
+      </div>
+      <div class="innovation-grid">
+        <div class="innovation-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="innovation-card-icon float-slow">
+            <i class="fas fa-sync-alt"></i>
+          </div>
+          <h3>Process Innovation</h3>
+          <p>Complete traceable end‑to‑end maintenance‑ticket workflow covering submission, verification, assignment, follow‑up and formal closure.</p>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+        <div class="innovation-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="innovation-card-icon float-medium" style="animation-delay: 0.5s;">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3>Collaborative Model</h3>
+          <p>Students identify and report barriers; university staff verify, coordinate repairs and update public facility data.</p>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+        <div class="innovation-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="innovation-card-icon float-fast" style="animation-delay: 1s;">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Data Feedback</h3>
+          <p>Structured barrier records power accessibility audits and infrastructure upgrade decision‑making across campus.</p>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 3.5rem;" class="fade-in">
+        <a href="innovation.html" class="btn btn-outline">
+          Compare with Competitors <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Preview -->
+  <section class="section mega-section">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1600&q=80&fit=crop" alt="Modern workspace and team collaboration" loading="lazy">
+      <div class="section-bg-overlay light"></div>
+    </div>
+    <div class="mega-number-bg warm" style="left: -3%; top: 10%;">04</div>
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="eyebrow">Our Team</span>
+        <h2>The people behind <span class="italic-serif">AccessReady</span></h2>
+        <p class="lead">
+          Five founding members bringing vision, product, market, technology and finance together.
+        </p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="team-avatar float-slow" style="background: linear-gradient(135deg, var(--color-accent-300), var(--color-accent-600));">
+            <img src="images/team/ceo-wangyiman.jpg" alt="Wang Yiman - CEO" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
+          </div>
+          <div class="team-info">
+            <div class="team-role">CEO</div>
+            <div class="team-name">Wang Yiman</div>
+            <div class="team-desc">Vision‑driven strategist charting project direction.</div>
+          </div>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+        <div class="team-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="team-avatar float-medium" style="background: linear-gradient(135deg, var(--color-warm-300), var(--color-warm-500)); animation-delay: 0.3s;">
+            <img src="images/team/cpo-gongyinuo.jpg" alt="Gong Yinuo - CPO" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
+          </div>
+          <div class="team-info">
+            <div class="team-role">CPO</div>
+            <div class="team-name">Gong Yinuo</div>
+            <div class="team-desc">Perceptive user‑centric innovator refining concepts.</div>
+          </div>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+        <div class="team-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="team-avatar float-fast" style="background: linear-gradient(135deg, var(--color-slate-300), var(--color-slate-600)); animation-delay: 0.6s;">
+            <img src="images/team/cmo-cuitianqi.jpg" alt="Cui Tianqi - CMO" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
+          </div>
+          <div class="team-info">
+            <div class="team-role">CMO</div>
+            <div class="team-name">Cui Tianqi</div>
+            <div class="team-desc">Sharp‑sighted market analyst articulating core value.</div>
+          </div>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+        <div class="team-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="team-avatar float-medium" style="background: linear-gradient(135deg, #a8c5e0, #5a85a8); animation-delay: 0.9s;">
+            <img src="images/team/cto-gaoxurun.jpg" alt="Gao Xurun - CTO" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
+          </div>
+          <div class="team-info">
+            <div class="team-role">CTO</div>
+            <div class="team-name">Gao Xurun</div>
+            <div class="team-desc">Technically astute architect orchestrating systems.</div>
+          </div>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+        <div class="team-card fade-in tilt-card">
+          <div class="tilt-content">
+          <div class="team-avatar float-slow" style="background: linear-gradient(135deg, #d4c5a9, #a08050); animation-delay: 1.2s;">
+            <img src="images/team/cfo-baowanqing.jpg" alt="Bao Wanqing - CFO" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
+          </div>
+          <div class="team-info">
+            <div class="team-role">CFO</div>
+            <div class="team-name">Bao Wanqing</div>
+            <div class="team-desc">Prudent strategic evaluator grounding the project.</div>
+          </div>
+          </div>
+          <div class="tilt-shine"></div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 3.5rem;" class="fade-in">
+        <a href="team.html" class="btn-text">
+          Meet the full team <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section grain">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1920&q=80&fit=crop" alt="Grand campus building at sunset" loading="lazy">
+      <div class="section-bg-overlay dark-sage"></div>
+    </div>
+    <div class="container">
+      <div class="cta-content fade-in">
+        <h2>Ready to make your campus <span class="italic-serif">truly accessible?</span></h2>
+        <p>Join universities building inclusive environments where every student can move freely, safely and independently.</p>
+        <div class="cta-buttons">
+          <a href="solution.html" class="btn btn-primary glow-pulse">
+            Explore AccessReady <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="team.html" class="btn btn-secondary">
+            <i class="fas fa-envelope"></i> Contact Our Team
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section-bg">
+      <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=1600&q=80&fit=crop" alt="University campus architecture" loading="lazy">
+      <div class="section-bg-overlay dark-deep"></div>
+    </div>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-logo">
+            <div class="footer-brand-logo-icon">
+              <img src="images/logo-mark-dark.svg" alt="AccessReady logo">
+            </div>
+            <div>
+              <div class="footer-brand-logo-text">AccessReady</div>
+              <div class="footer-brand-logo-sub">Inclusive Digital Campus</div>
+            </div>
+          </div>
+          <p>AccessReady: An integrated campus accessibility platform. Equity begins when no‑one is sidelined by physical space.</p>
+          <div class="footer-social" style="margin-top: 1.5rem;">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="solution.html">Our Solution</a></li>
+            <li><a href="innovation.html">Innovation</a></li>
+            <li><a href="background.html">Project Background</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="audience.html">Target Audience</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AccessReady Technologies Pty Ltd. All rights reserved.</p>
+        <p style="font-family: var(--font-serif); font-style: italic; color: rgba(255,255,255,0.4);">Equity begins when no‑one is sidelined by physical space.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script src="js/main.js"></script>
+  <script src="js/effects.js" defer></script>
+</body>
+</html>
